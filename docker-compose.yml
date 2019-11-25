@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  reporter:
+    restart: always
+    build: ./mssql_github
+    env_file:
+      - .env
