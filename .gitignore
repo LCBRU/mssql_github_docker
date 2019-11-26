@@ -3,3 +3,6 @@
 
 # Environment
 .env
+
+# Key
+id_rsa
