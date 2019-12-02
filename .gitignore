@@ -6,3 +6,6 @@
 
 # Key
 id_rsa
+
+.git-credentials
+.gitconfig
