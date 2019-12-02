@@ -5,5 +5,7 @@ services:
     restart: always
     build:
       context: ./mssql_github
+    volumes:
+      - "${DATA_DIRECTORY}:/data"
     env_file:
       - .env
