@@ -8,7 +8,7 @@ WORKDIR /usr/src/app
 ADD .git* /root/
 RUN chmod 600 /root/.git-credentials
 
-RUN svn export --force https://github.com/LCBRU/mssql_github/trunk/ /usr/src/app/
+RUN git clone https://github.com/LCBRU/mssql_github.git /usr/src/app/
 
 RUN pip install --no-cache-dir -r requirements.txt
 
