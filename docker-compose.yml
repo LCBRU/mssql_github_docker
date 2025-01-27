@@ -1,10 +1,7 @@
-version: '3'
-
 services:
   mssql_github:
     restart: always
-    build:
-      context: ./mssql_github
+    image: lcbruit/mssql_github:latest
     volumes:
       - "${DATA_DIRECTORY}:/data"
     env_file:

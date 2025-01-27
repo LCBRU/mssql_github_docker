@@ -1,7 +1,0 @@
-[user]
-        name ={name}
-        email = {email}
-[push]
-        default = simple
-[credential]
-        helper = store
